@@ -1,5 +1,5 @@
 Nama : Sukma Ananda Putri 
-Nim : 244107060003 
+NIM : 244107060003 
 Kelas : SIB 2F
 No. Absen : 18
 
