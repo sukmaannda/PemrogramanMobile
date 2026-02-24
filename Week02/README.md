@@ -1,6 +1,6 @@
 Nama : Sukma Ananda Putri NIM : 244107060003 Kelas : SIB 2F No. Absen : 18
 
-Pemrograman Mobile - Week01 
+Pemrograman Mobile - Week02
 
 Pada pertemuan ini saya mempelajari dasar-dasar bahasa pemrograman Dart yang digunakan dalam pengembangan aplikasi mobile, khususnya sebagai bahasa utama pada framework Flutter. Materi diawali dengan pengenalan Dart sebagai bahasa yang berorientasi objek (object-oriented) serta memiliki fitur null safety yang membantu mencegah kesalahan akibat nilai null. Setiap program Dart dijalankan melalui fungsi main() yang berperan sebagai titik awal (entry point) eksekusi program.
 
