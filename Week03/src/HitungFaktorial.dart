@@ -18,12 +18,13 @@ void main() {
   } else {
     double hasil = 1; // Menggunakan double untuk menampung angka besar
 
-    // 2. Perulangan untuk menghitung faktorial
+    // 2. Perulangan untuk menghitung faktorial jika angka > 0
     // n! = n * (n-1) * (n-2) * ... * 1
     for (int i = 1; i <= angka; i++) {
       hasil *= i;
     }
 
+// 3. Output hasil faktorial
     print('Hasil faktorial dari $angka ($angka!) adalah: $hasil');
   }
 }
