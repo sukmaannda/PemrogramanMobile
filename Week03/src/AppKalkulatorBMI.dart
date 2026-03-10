@@ -14,5 +14,35 @@ void main() {
     double berat = double.parse(stdin.readLineSync()!);
 
     double tinggiMeter = tinggiCm / 100;
+  
+  // Perhitungan BMI
+    double bmi = berat / (tinggiMeter * tinggiMeter);
+
+    // Kategori BMI
+    String kategori;
+    if (bmi < 18.5) {
+      kategori = "Kurus";
+    } else if (bmi >= 18.5 && bmi < 25) {
+      kategori = "Normal";
+    } else {
+      kategori = "Gemuk";
+    }
+
+    // Menampilkan hasil
+    print("\nHasil BMI Anda: ${bmi.toStringAsFixed(2)}");
+    print("Kategori: $kategori");
+
+    // Simpan riwayat
+    history.add("BMI: ${bmi.toStringAsFixed(2)} - $kategori");
+
+    // Tanya apakah ingin menghitung lagi
+    stdout.write("\nHitung lagi? (y/n): ");
+    String? jawab = stdin.readLineSync();
+
+    if (jawab?.toLowerCase() != 'y') {
+      lanjut = false;
+    }
+
+    print("");
   }
 }
