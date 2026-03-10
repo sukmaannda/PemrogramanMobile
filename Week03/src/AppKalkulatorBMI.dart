@@ -14,8 +14,8 @@ void main() {
     double berat = double.parse(stdin.readLineSync()!);
 
     double tinggiMeter = tinggiCm / 100;
-  
-  // Perhitungan BMI
+
+    // Perhitungan BMI
     double bmi = berat / (tinggiMeter * tinggiMeter);
 
     // Kategori BMI
@@ -44,5 +44,13 @@ void main() {
     }
 
     print("");
+
+    // Menampilkan riwayat
+    print("=== Riwayat Perhitungan BMI ===");
+    for (int i = 0; i < history.length; i++) {
+      print("${i + 1}. ${history[i]}");
+    }
+
+    print("Terima kasih telah menggunakan aplikasi BMI!");
   }
 }
